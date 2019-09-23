@@ -20,10 +20,10 @@ function handleQuizStart() {
 
 // Update/display the question number and score obtained at the top of the screen
 function updateQuestionNumberAndScore() {
-    const html = $(`<ul>
-        <li id="js-answered">Questions Number: ${STORE.currentQuestion +1}/${STORE.questions.length}</li>
-        <li id="js-score">Score: ${STORE.score}/${STORE.questions.length}</li>
-      </ul>`);
+    const html = $(`
+        <div class="ques-score" id="js-answered">Question: ${STORE.currentQuestion +1}/${STORE.questions.length}</div>
+        <div class="ques-score" id="js-score">Score: ${STORE.score}/${STORE.questions.length}</div>
+      `);
     $(".question-and-score").html(html);
 
     console.log('`updateQuestionNumberAndScore` ran');
@@ -87,7 +87,8 @@ function displayResultsPage() {
             <fieldset>
                 <div class="js-row">
                     <div class="js-col-12">
-                        <legend>Your score is: ${STORE.score}/${STORE.questions.length}</legend>
+                        <legend id="score-results">Your score is: ${STORE.score}/${STORE.questions.length}</legend>
+                        <p><img alt="Australian Shepherd looking at you through a fence" id="aussie-fence" src="https://Kevindavis5454.github.io/quiz-app-final-kd/assets/Aussiefence.gif"></p>
                     </div>
                 </div>
                 
@@ -130,11 +131,11 @@ function isTheAnswerCorrect() {
         $('span').removeClass("right-answer wrong-answer");
         if(selectedOption === currentQues.answer) {
             STORE.score++;
-            $(`${id}`).append(`You got it right<br/>`);
+            $(`${id}`).append(`You got it right!<br/> <img alt="Australian Shepherd giving you a high five" id="high-five" src="https://Kevindavis5454.github.io/quiz-app-final-kd/assets/AussieHighFive.gif">`);
             $(`${id}`).addClass("right-answer");
         }
         else {
-            $(`${id}`).append(`You got it wrong <br/> The answer is "${currentQues.answer}"<br/>`);
+            $(`${id}`).append(`You got it wrong <br/> The answer is "${currentQues.answer}"<br/> <img alt="Australian Shepherd swiping your hand away" id="aussie-no" src="https://Kevindavis5454.github.io/quiz-app-final-kd/assets/aussieno.gif">`);
             $(`${id}`).addClass("wrong-answer");
         }
 
