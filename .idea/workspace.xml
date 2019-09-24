@@ -55,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569170683412</updated>
-      <workItem from="1569170684456" duration="36753000" />
+      <workItem from="1569170684456" duration="37298000" />
     </task>
     <task id="LOCAL-00001" summary="added css styling">
       <created>1569272303555</created>
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569348475285</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Altered responsive sizing">
+      <created>1569349164981</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569349164981</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
