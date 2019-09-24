@@ -73,6 +73,7 @@ button:disabled {
     display:block;
     border-radius:5px;
     text-align: center;
+    width: 220px;
 }
 
 .js-col-12 {
@@ -110,8 +111,8 @@ button:disabled {
 }
 
 #high-five {
-    height: 150px;
-    width: 225px;
+    height: 100px;
+    width: 150px;
     margin-left:auto;
     margin-right: auto;
 }
