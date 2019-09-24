@@ -168,7 +168,16 @@ label {
     background-color: grey;
     padding: 10px;
 }
-@media only screen and (min-width: 700px) {
+@media only screen and (max-width: 700px) {
+
+    #puppies-bench {
+        width: 80%;
+    }
+
+    fieldset {
+        width: 80%;
+        margin-left: 47px;
+    }
 
 
 }
