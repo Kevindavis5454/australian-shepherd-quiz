@@ -91,6 +91,7 @@ button:disabled {
     margin: 5px 20px;
     border:2px solid darkgreen;
     border-radius:5px;
+    max-width: 270px;
 }
 
 .wrong-answer {
@@ -99,6 +100,7 @@ button:disabled {
     margin: 5px 20px;
     border:2px solid #fe0000;
     border-radius:5px;
+    max-width: 270px;
 }
 #puppies-bench {
     display: block;
@@ -109,11 +111,15 @@ button:disabled {
 
 #high-five {
     height: 150px;
-    width: 250px;
+    width: 225px;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 #aussie-no {
     height: 150px;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 #aussie-fence {
