@@ -45,6 +45,7 @@ function updateAnswerOptions() {
 
 // This function displays the question in the DOM
 function renderQuestion() {
+    $("#puppies-bench").remove();
     let question = STORE.questions[STORE.currentQuestion];
     updateQuestionNumberAndScore();
     const questionHtml = $(`
