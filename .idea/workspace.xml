@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba838f2a-934b-4972-8da8-a7c463f3eda4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569170683412</updated>
-      <workItem from="1569170684456" duration="34455000" />
+      <workItem from="1569170684456" duration="35241000" />
     </task>
     <task id="LOCAL-00001" summary="added css styling">
       <created>1569272303555</created>
@@ -72,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569283390345</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added CSS Styling">
+      <created>1569345952759</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569345952759</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +98,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added css styling" />
     <MESSAGE value="Added Responsive Css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Responsive Css" />
+    <MESSAGE value="Added CSS Styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CSS Styling" />
   </component>
 </project>
