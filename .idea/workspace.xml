@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba838f2a-934b-4972-8da8-a7c463f3eda4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="ba838f2a-934b-4972-8da8-a7c463f3eda4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569349827442</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Revert &quot;Fixed Readme&quot;&#10;&#10;This reverts commit 7d62bc91">
+      <created>1577556556839</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577556556839</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +128,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -136,6 +142,7 @@
     <MESSAGE value="Added CSS Styling" />
     <MESSAGE value="deleted favicon" />
     <MESSAGE value="Altered responsive sizing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Altered responsive sizing" />
+    <MESSAGE value="Revert &quot;Fixed Readme&quot;&#10;&#10;This reverts commit 7d62bc91" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Fixed Readme&quot;&#10;&#10;This reverts commit 7d62bc91" />
   </component>
 </project>

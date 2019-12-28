@@ -89,7 +89,7 @@ function displayResultsPage() {
                 <div class="js-row">
                     <div class="js-col-12">
                         <legend id="score-results">Your score is: ${STORE.score}/${STORE.questions.length}</legend>
-                        <p><img alt="Australian Shepherd looking at you through a fence" id="aussie-fence" src="https://Kevindavis5454.github.io/quiz-app-final-kd/assets/Aussiefence.gif"></p>
+                        <p><img alt="Australian Shepherd looking at you through a fence" id="aussie-fence" src="https://Kevindavis5454.github.io/australian-shepherd-quiz/assets/Aussiefence.gif"></p>
                     </div>
                 </div>
                 
@@ -132,11 +132,11 @@ function isTheAnswerCorrect() {
         $('span').removeClass("right-answer wrong-answer");
         if(selectedOption === currentQues.answer) {
             STORE.score++;
-            $(`${id}`).append(`You got it right!<br/> <img alt="Australian Shepherd giving you a high five" id="high-five" src="https://Kevindavis5454.github.io/quiz-app-final-kd/assets/AussieHighFive.gif">`);
+            $(`${id}`).append(`You got it right!<br/> <img alt="Australian Shepherd giving you a high five" id="high-five" src="https://Kevindavis5454.github.io/australian-shepherd-quiz/assets/AussieHighFive.gif">`);
             $(`${id}`).addClass("right-answer");
         }
         else {
-            $(`${id}`).append(`You got it wrong <br/> The answer is "${currentQues.answer}"<br/> <img alt="Australian Shepherd swiping your hand away" id="aussie-no" src="https://Kevindavis5454.github.io/quiz-app-final-kd/assets/aussieno.gif">`);
+            $(`${id}`).append(`You got it wrong <br/> The answer is "${currentQues.answer}"<br/> <img alt="Australian Shepherd swiping your hand away" id="aussie-no" src="https://Kevindavis5454.github.io/australian-shepherd-quiz/assets/aussieno.gif">`);
             $(`${id}`).addClass("wrong-answer");
         }
 
